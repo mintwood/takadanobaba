@@ -171,3 +171,13 @@ nav.primary-nav a:hover { color: var(--c-primary); background: var(--c-surface);
 .mobile-nav.is-open .mobile-backdrop { opacity: 1; }
 .mobile-nav.is-open .mobile-drawer { transform: translateX(0); }
 body.menu-open { overflow: hidden; }
+/* --- Director Profile minimal --- */
+.profile-portrait{
+  width:100%;
+  height:auto;
+  display:block;
+  border-radius:12px;
+  border:1px solid var(--border-color);
+  object-fit:cover;
+}
+#director h4{ margin: 16px 0 8px; font-size: 1.02rem; }

@@ -31,9 +31,9 @@
       <nav class="primary-nav" aria-label="メインナビゲーション">
         <a href="#features">特徴</a>
         <a href="#services">施術</a>
-        <a href="#sports">ダーツ外傷</a>
         <a href="#hours">予約</a>
         <a href="#gallery">写真</a>
+        <a href="#director">院長紹介</a>
         <a href="#faq">FAQ</a>
         <a href="#access">アクセス</a>
       </nav>
@@ -64,6 +64,7 @@
         <a class="mobile-link js-menu-close" href="#sports">ダーツ外傷</a>
         <a class="mobile-link js-menu-close" href="#hours">予約</a>
         <a class="mobile-link js-menu-close" href="#gallery">写真</a>
+        <a class="mobile-link js-menu-close" href="#director">院長紹介</a>
         <a class="mobile-link js-menu-close" href="#faq">FAQ</a>
         <a class="mobile-link js-menu-close" href="#access">アクセス</a>
         <a class="btn" href="tel:0362659955" data-evt="tel_menu">03-6265-9955</a>
@@ -129,6 +130,7 @@
           </div>
         </div>
       </div>
+      
     </section>
 
     <!-- SERVICES -->
@@ -164,7 +166,52 @@
         </div>
       </div>
     </section>
+<!-- DIRECTOR -->
+<section class="section" id="director" aria-label="院長紹介">
+  <div class="wrap">
+    <h2>院長紹介</h2>
+    <div class="grid cols-2" style="align-items:start">
+      <figure class="panel" style="padding:0">
+        <img class="profile-portrait" src="./kawarada.jpg" alt="院長 川原田（柔道整復師）" loading="lazy" />
+        <figcaption class="small" style="padding:12px 16px">写真：院内にて撮影</figcaption>
+      </figure>
 
+      <div class="panel">
+        <h3 style="margin-top:0">院長　川原田（柔道整復師）</h3>
+        <p class="lead">
+          痛みの軽減だけでなく、<strong>再発予防</strong>までを見据えた評価・施術を重視しています。
+          当院では <strong>電気療法 × 手技</strong> を状態にあわせてハイブリッドに用い、刺激は快適域で個別に調整します（感じ方には個人差があります）。
+        </p>
+
+        <h4>施術ポリシー</h4>
+        <ul class="list">
+          <li>初回は問診・動作/可動域・触診を丁寧に評価し、施術計画を共有</li>
+          <li>電気刺激（TENS／ハイボルテージ／マイクロカレント）は<strong>不快感のない出力</strong>で微調整</li>
+          <li>手技・運動指導・セルフケアを組み合わせ、日常動作からの再発予防をサポート</li>
+        </ul>
+
+        <h4>得意領域</h4>
+        <ul class="list">
+          <li>肩・肘・手関節の違和感／痛み</li>
+          <li>投動作（ダーツ等）に伴う張り・使いすぎのケア</li>
+          <li>家事・デスクワーク由来の首・背中のこわばり</li>
+        </ul>
+
+        <h4>資格</h4>
+        <ul class="list">
+          <li>柔道整復師（国家資格）</li>
+        </ul>
+
+        <h4>メッセージ</h4>
+        <p>
+          「強い刺激＝良い」ではありません。からだが受け入れやすい刺激を積み重ね、<strong>できる動き</strong>を少しずつ増やすことを大切にしています。
+          不安やご希望（手技中心／電気中心など）は遠慮なくお伝えください。状態と安全性を踏まえ、最適な比率をご提案します。
+        </p>
+        <p class="small">※ 医師から物理療法の制限がある場合は事前にご申告ください。</p>
+      </div>
+    </div>
+  </div>
+</section>
     <!-- SAFETY -->
     <section class="section" aria-label="安全情報">
       <div class="wrap">
@@ -188,11 +235,18 @@
         <div class="grid cols-2">
           <div class="panel">
             <h2>診療時間・予約</h2>
-            <p class="lead">8:00〜22:00 完全予約制</p>
-            <ul class="list">
-              <li>既存患者：時間外24時間相談に対応</li>
-              <li>新規受付：2025/12/21〜 指定医療機関の紹介状をご持参</li>
-            </ul>
+            <p class="lead">9:00〜22:00 完全予約制</p>
+            <!-- 受付時間 画像（追加） -->
+<figure class="timetable" aria-describedby="timetableNote">
+  <img
+    src="./timetable.png"
+    alt="受付時間 9:00〜22:00（完全予約制）。日曜・祝日は休み。月曜〜土曜は受付。"
+    loading="lazy"
+    decoding="async"
+    class="timetable-img"
+  />
+  <figcaption id="timetableNote" class="small text-muted">※ 日曜・祝日はお休みです</figcaption>
+</figure>
             <div class="cta-group">
               <a class="btn" href="tel:0362659955" data-evt="cta_tel_2">電話で予約</a>
               <a class="btn-outline" href="https://karadarefre.jp/facility/166339/" target="_blank" rel="noopener">EPARKページ</a>
@@ -260,6 +314,61 @@
         </div>
       </div>
     </section>
+    <section class="section" id="voices" aria-label="お客様の声">
+  <div class="wrap">
+    <h2>お客様の声</h2>
+    <p class="small">※個人の感想で、感じ方には個人差があります。</p>
+    <div class="grid cols-3" style="margin-top:12px">
+      <!-- voice 1 -->
+      <article class="panel" itemscope itemtype="https://schema.org/Review">
+        <div style="display:flex;gap:12px;align-items:center;margin-bottom:10px">
+          <img src="voice_woman_office.jpg" alt="30代女性のイラスト" width="72" height="72" style="border-radius:12px;border:1px solid var(--border-color)">
+          <div>
+            <strong itemprop="author">30代・女性（デスクワーク）</strong>
+            <div class="small text-muted">首・肩の重だるさ</div>
+          </div>
+        </div>
+        <p class="lead" itemprop="reviewBody">
+          夕方の首肩こりがつらかったのですが、心地よい電気と手技で軽くなりました。教わったストレッチで調子を保てています。
+        </p>
+        <p class="small">施術：TENS＋手技／セルフケア指導</p>
+        <meta itemprop="itemReviewed" content="たかだのばば整骨院（サンプル）">
+      </article>
+
+      <!-- voice 2 -->
+      <article class="panel" itemscope itemtype="https://schema.org/Review">
+        <div style="display:flex;gap:12px;align-items:center;margin-bottom:10px">
+          <img src="voice_man_office.jpg" alt="40代男性のイラスト" width="72" height="72" style="border-radius:12px;border:1px solid var(--border-color)">
+          <div>
+            <strong itemprop="author">40代・男性（会社員）</strong>
+            <div class="small text-muted">慢性的な腰の違和感</div>
+          </div>
+        </div>
+        <p class="lead" itemprop="reviewBody">
+          朝のこわばりが続いていましたが、ハイボルテージと骨盤まわりの手技で楽に。22時まで予約できて通いやすいです。
+        </p>
+        <p class="small">施術：ハイボルテージ＋手技／姿勢・動作アドバイス</p>
+        <meta itemprop="itemReviewed" content="たかだのばば整骨院（サンプル）">
+      </article>
+
+      <!-- voice 3 -->
+      <article class="panel" itemscope itemtype="https://schema.org/Review">
+        <div style="display:flex;gap:12px;align-items:center;margin-bottom:10px">
+          <img src="voice_boy_soccer.jpg" alt="サッカー少年のイラスト" width="72" height="72" style="border-radius:12px;border:1px solid var(--border-color)">
+          <div>
+            <strong itemprop="author">10代・男子（サッカー部）</strong>
+            <div class="small text-muted">足首の違和感</div>
+          </div>
+        </div>
+        <p class="lead" itemprop="reviewBody">
+          微弱電流と手技で違和感が引き、段階的メニューで3週ほどで練習復帰。セルフケアも分かりやすかったです。
+        </p>
+        <p class="small">施術：マイクロカレント＋手技／復帰プログラム</p>
+        <meta itemprop="itemReviewed" content="たかだのばば整骨院（サンプル）">
+      </article>
+    </div>
+  </div>
+</section>
 
     <!-- FAQ -->
     <section class="section" id="faq" aria-label="よくある質問">
