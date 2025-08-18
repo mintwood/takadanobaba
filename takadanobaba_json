@@ -1,0 +1,305 @@
+{
+  "site": {
+    "name": "たかだのばば整骨院（サンプルページ）",
+    "locale": "ja_JP",
+    "page_slug": "takadanobaba-seikotsuin-sample",
+    "environment": "staging",
+    "noindex": true,
+    "head": {
+      "title": "高田馬場駅1分｜電気療法に特化した整骨院（サンプルページ）",
+      "meta": [
+        {
+          "name": "description",
+          "content": "高田馬場駅徒歩1〜2分。電気療法に特化した完全予約制の整骨院（サンプル）。TENS／ハイボルテージ／マイクロカレント等と手技で痛みの軽減と再発予防をめざします（効果には個人差があります）。既存患者は時間外24時間相談可。新規は2025/12/21〜紹介状受付。"
+        },
+        { "name": "robots", "content": "noindex, nofollow, noarchive, nosnippet" },
+        { "http-equiv": "X-Robots-Tag", "content": "noindex, nofollow, noarchive, nosnippet" },
+        { "name": "format-detection", "content": "telephone=no" }
+      ],
+      "link": [
+        { "rel": "canonical", "href": "https://example.com/takadanobaba-seikotsuin-sample" }
+      ],
+      "open_graph": {
+        "og:title": "高田馬場駅1分｜電気療法に特化した整骨院（サンプルページ）",
+        "og:type": "website",
+        "og:url": "https://example.com/takadanobaba-seikotsuin-sample",
+        "og:image": "./img_1.jpg",
+        "og:locale": "ja_JP",
+        "og:site_name": "たかだのばば整骨院（サンプルページ）",
+        "twitter:card": "summary_large_image"
+      }
+    },
+    "http_headers": { "X-Robots-Tag": "noindex, nofollow, noarchive, nosnippet" },
+    "robots_txt": "User-agent: *\nDisallow: /\n"
+  },
+  "organization": {
+    "legal_name": "たかだのばば整骨院（サンプルページ）",
+    "business_type": "整骨院（柔道整復）",
+    "description": "最新機器による電気療法に特化。手技と併用し、痛みの軽減と再発予防をめざす完全予約制。ダーツ外傷にも対応。"
+  },
+  "location": {
+    "address": {
+      "region": "東京都",
+      "city": "新宿区",
+      "street": "高田馬場1-33-13 千年ビル802号",
+      "country": "JP"
+    },
+    "nearest_station": [
+      { "line": "JR山手線／西武新宿線", "name": "高田馬場駅", "walk": "徒歩1分" },
+      { "line": "東京メトロ東西線", "name": "高田馬場駅", "walk": "徒歩2分" }
+    ],
+    "access_notes": "早稲田通り沿い、千年ビル8F。",
+    "map": {
+      "type": "embed_iframe",
+      "embed_src": "https://www.google.com/maps?q=%E6%9D%B1%E4%BA%AC%E9%83%BD+%E6%96%B0%E5%AE%BF%E5%8C%BA%E9%AB%98%E7%94%B0%E9%A6%AC%E5%A0%B41-33-13+%E5%8D%83%E5%B9%B4%E3%83%93%E3%83%AB802%E5%8F%B7&hl=ja&z=18&output=embed",
+      "loading": "lazy",
+      "referrerpolicy": "no-referrer-when-downgrade",
+      "map_link": "https://maps.app.goo.gl/v4uV4VRFCH5gwx9n8",
+      "directions_link": "https://www.google.com/maps/dir/?api=1&destination=%E6%9D%B1%E4%BA%AC%E9%83%BD+%E6%96%B0%E5%AE%BF%E5%8C%BA%E9%AB%98%E7%94%B0%E9%A6%AC%E5%A0%B41-33-13+%E5%8D%83%E5%B9%B4%E3%83%93%E3%83%AB802%E5%8F%B7"
+    },
+    "epark_url": "https://karadarefre.jp/facility/166339/"
+  },
+  "contact": { "phone": "03-6265-9955" },
+  "hours": [
+    {
+      "days": "Mon,Tue,Wed,Thu,Fri,Sat,Sun",
+      "open": "08:00",
+      "close": "22:00",
+      "note": "完全予約制／既存患者は時間外24時間相談可"
+    }
+  ],
+  "appointment_policy": {
+    "is_reservation_required": true,
+    "existing_patients": "完全予約制。時間外も24時間相談可（状況により応相談）。",
+    "new_patients": {
+      "start_date": "2025-12-21",
+      "require_referral_letter": true,
+      "note": "指定医療機関からの紹介状をご持参ください。"
+    }
+  },
+  "sections": {
+    "hero": {
+      "headline": "高田馬場駅1分 電気療法に特化した整骨院",
+      "sub": "TENS／ハイボルテージ／マイクロカレント等と手技を併用し、痛みの軽減と再発予防をめざします（効果には個人差があります）。",
+      "badges": ["完全予約制", "既存は時間外24時間相談", "ダーツ外傷対応", "駅徒歩1〜2分"],
+      "image": "./img_1.jpg",
+      "cta": [
+        { "label": "電話で予約・相談", "type": "tel", "value": "03-6265-9955", "event": "cta_tel" },
+        { "label": "EPARKを見る", "type": "link", "value": "https://karadarefre.jp/facility/166339/", "event": "cta_epark", "icon": "./link_icon.png" }
+      ]
+    },
+    "features": [
+      {
+        "title": "駅近で通いやすい",
+        "text": "JR/西武 高田馬場駅 徒歩1分、東京メトロ東西線 徒歩2分。8:00–22:00で予約に対応。",
+        "icon": null
+      },
+      {
+        "title": "電気療法×手技のハイブリッド",
+        "text": "出力や周波数を個別に調整し、負担を抑えた施術を心がけます。",
+        "icon": null
+      },
+      {
+        "title": "ダーツ外傷にも対応",
+        "text": "投動作の癖や練習負荷まで踏まえた評価で、競技復帰を支援。",
+        "icon": null
+      },
+      {
+        "title": "既存患者は24時間相談",
+        "text": "感染症対策のため完全予約制。新規は2025/12/21〜（紹介状要）。",
+        "icon": null
+      }
+    ],
+    "services": [
+      {
+        "category": "電気刺激療法（物理療法）",
+        "image": "./img_2.jpg",
+        "items": ["TENS（経皮的電気神経刺激）", "ハイボルテージ（高電圧刺激）", "マイクロカレント（微弱電流）"],
+        "note": "感じ方や経過には個人差があります。刺激は快適域で調整します。"
+      },
+      {
+        "category": "手技・運動指導",
+        "image": "./img_3.jpg",
+        "items": ["可動域調整", "筋緊張のバランス調整", "セルフケア指導"],
+        "note": "再発予防を目的に生活動作も併せて提案。"
+      },
+      {
+        "category": "スポーツ（ダーツ）外傷",
+        "image": "./img_4.jpg",
+        "items": ["肘（上腕骨外側上顆炎相当）", "肩・肩甲帯の張り", "手首・手指の痛み"],
+        "note": "競技復帰の可否・時期は個別判断。"
+      }
+    ],
+    "safety": {
+      "title": "禁忌・注意事項",
+      "bullets": [
+        "体内植込み型医用電気機器をご使用の方は通電不可",
+        "妊娠中の体幹部への通電は避けます",
+        "急性の感染症・発熱時は適用外となる場合があります",
+        "悪性腫瘍部位・知覚障害部位への強い刺激は避けます",
+        "医師から物理療法の制限がある場合は必ず事前申告をお願いします"
+      ],
+      "disclaimer": "物理療法は補助的手段です。効果の感じ方には個人差があります。"
+    },
+    "booking": {
+      "title": "診療時間・予約",
+      "lines": [
+        "8:00〜22:00（完全予約制）",
+        "既存患者：時間外24時間相談に対応",
+        "新規受付：2025/12/21〜 指定医療機関の紹介状をご持参"
+      ],
+      "cta": [
+        { "label": "電話で予約", "type": "tel", "value": "03-6265-9955", "event": "cta_tel_2" },
+        { "label": "EPARKページ", "type": "link", "value": "https://karadarefre.jp/facility/166339/", "event": "cta_epark_2", "icon": "./link_icon.png" }
+      ]
+    },
+    "reviews": {
+      "title": "当院の口コミはこちら",
+      "subtitle": "Googleプロフィール（GBP）のクチコミを参照できます。",
+      "links": [
+        {
+          "label": "Googleマップのクチコミを見る",
+          "url": "https://www.google.com/maps/search/?api=1&query=%E3%81%9F%E3%81%8B%E3%81%A0%E3%81%AE%E3%81%B0%E3%81%B0%E6%95%B4%E9%AA%A8%E9%99%A2+%E6%96%B0%E5%AE%BF",
+          "icon": "./link_icon.png",
+          "rel": "noopener nofollow"
+        },
+        {
+          "label": "Googleビジネスプロフィール（GBP）",
+          "url": "https://www.google.com/maps/search/?api=1&query=%E3%81%9F%E3%81%8B%E3%81%A0%E3%81%AE%E3%81%B0%E3%81%B0%E6%95%B4%E9%AA%A8%E9%99%A2+%E6%96%B0%E5%AE%BF",
+          "icon": "./link_icon.png",
+          "rel": "noopener nofollow"
+        }
+      ],
+      "note": "実運用では貴院のGBP固有リンク（Place ID）に差し替えてください。"
+    },
+    "social": {
+      "title": "当院はこんな雰囲気です",
+      "subtitle": "最新情報や院内の様子をSNSで発信しています。",
+      "profiles": [
+        { "name": "LINE", "icon": "./LINE_icon.png", "url": "https://line.me/", "aria_label": "LINEで開く", "rel": "noopener nofollow" },
+        { "name": "Instagram", "icon": "./Instagram_icon.png", "url": "https://www.instagram.com/", "aria_label": "Instagramで開く", "rel": "noopener nofollow" },
+        { "name": "X", "icon": "./X_icon.png", "url": "https://x.com/", "aria_label": "Xで開く", "rel": "noopener nofollow" },
+        { "name": "TikTok", "icon": "./TikTok_icon.png", "url": "https://www.tiktok.com/", "aria_label": "TikTokで開く", "rel": "noopener nofollow" },
+        { "name": "Facebook", "icon": "./facebook_icon.png", "url": "https://www.facebook.com/", "aria_label": "Facebookで開く", "rel": "noopener nofollow" }
+      ],
+      "note": "各URLは本番公開時に貴院アカウントへ差し替えてください。"
+    },
+    "gallery": {
+      "title": "院内・施術の雰囲気",
+      "images": [
+        { "src": "./img_1.jpg", "alt": "院内全景" },
+        { "src": "./img_2.jpg", "alt": "電気療法機器" },
+        { "src": "./img_3.jpg", "alt": "手技の様子" },
+        { "src": "./img_4.jpg", "alt": "ダーツ外傷への対応" },
+        { "src": "./img_5.jpg", "alt": "受付・待合" }
+      ]
+    },
+    "faq": [
+      {
+        "q": "電気は強いほど効果的ですか？",
+        "a": "いいえ。心地よい範囲での刺激が基本です。強すぎる設定は逆効果になる場合があります。"
+      },
+      {
+        "q": "どの療法が自分に合うか分かりません。",
+        "a": "初回評価で状態を確認し、刺激条件や方法を個別にご提案します。必要に応じて手技や運動指導も併用します。"
+      },
+      {
+        "q": "医療機関との連携はありますか？",
+        "a": "必要時は指定医療機関をご案内し、紹介状の情報をもとに対応します。"
+      },
+      {
+        "q": "初回の流れと所要時間を教えてください。",
+        "a": "問診・評価（カウンセリング／可動域・神経／触診）→施術計画の共有→電気刺激＋手技の順で進みます。所要は目安60〜90分、2回目以降は30〜60分です（状況により前後）。"
+      },
+      {
+        "q": "電気刺激は痛くありませんか？強い方が効きますか？",
+        "a": "不快感のない範囲で出力と周波数を個別に調整します。強ければ良いわけではなく、過度な刺激は逆効果になる場合があります。心地よい刺激域を基本とします。"
+      },
+      {
+        "q": "電気治療が合うか不安です。手技だけ／電気だけの希望は可能？",
+        "a": "初回評価で適応を確認し、電気と手技の比率を調整します。手技中心・電気中心などのご希望も可能な範囲で対応します（安全性と適応を優先）。"
+      },
+      {
+        "q": "禁忌や注意事項はありますか？",
+        "a": "体内植込み型医用電気機器（ペースメーカー等）は通電不可、妊娠中の体幹部通電は避けます。急性の感染症・発熱時、悪性腫瘍部位・重度の知覚障害には強い刺激を行いません。主治医の指示がある場合は事前にお知らせください。"
+      },
+      {
+        "q": "副作用やリスクはありますか？",
+        "a": "一時的な筋肉痛やだるさ、軽い発赤・ヒリつきを感じることがあります。強い痛みや違和感が出た場合は直ちにお申し出ください。感じ方や経過には個人差があります。"
+      },
+      {
+        "q": "通院頻度と回数の目安は？",
+        "a": "痛みの性質・生活動作・目標により異なります。急性期は短期集中的、それ以降は間隔を空けながら再発予防のセルフケアを併用する方が多いです。初回後に目安をお伝えします。"
+      },
+      {
+        "q": "ダーツ由来の肘・肩・手首の痛みは見てもらえますか？",
+        "a": "対応可能です。投動作の癖や練習負荷、可動域や筋連鎖を評価し、電気刺激・手技・運動指導を組み合わせて復帰を支援します（復帰時期は個別判断）。"
+      },
+      {
+        "q": "予約方法と当日枠はありますか？",
+        "a": "お電話で承ります。完全予約制のため当日枠は空き状況によりご案内します（混雑時は別日をご提案）。"
+      },
+      {
+        "q": "新規受付の開始時期と持ち物は？",
+        "a": "新規は2025/12/21から受付予定です。指定医療機関の紹介状をご持参ください。服装は動きやすいものを推奨します。"
+      },
+      {
+        "q": "保険は使えますか？料金はどのくらい？",
+        "a": "適用可否は負傷原因や施術内容等で異なります。当院では自費中心のご案内を基本としており、詳細は来院時に個別にご説明します。（事実未確認）"
+      },
+      {
+        "q": "キャンセルや予約変更はできますか？",
+        "a": "可能です。分かり次第お早めにご連絡ください。具体的な締切・規定は運用確定後にご案内します。（事実未確認）"
+      },
+      {
+        "q": "感染症対策と営業時間を教えてください。",
+        "a": "完全予約制で混雑を回避し、器具の清拭・換気を実施しています。診療は8:00〜22:00、既存患者様は時間外24時間相談に対応します（状況により応相談）。"
+      }
+    ]
+  },
+  "assets": {
+    "hero_image": "./img_1.jpg",
+    "images": ["./img_1.jpg", "./img_2.jpg", "./img_3.jpg", "./img_4.jpg", "./img_5.jpg"],
+    "icons": {
+      "link": "./link_icon.png",
+      "line": "./LINE_icon.png",
+      "instagram": "./Instagram_icon.png",
+      "x": "./X_icon.png",
+      "tiktok": "./TikTok_icon.png",
+      "facebook": "./facebook_icon.png"
+    }
+  },
+  "cta": {
+    "primary": { "label": "電話で予約・相談する", "type": "tel", "value": "03-6265-9955" },
+    "secondary": { "label": "EPARKを見る", "type": "link", "value": "https://karadarefre.jp/facility/166339/" }
+  },
+  "structured_data": [
+    {
+      "@context": "https://schema.org",
+      "@type": "MedicalBusiness",
+      "name": "たかだのばば整骨院（サンプルページ）",
+      "url": "https://example.com/takadanobaba-seikotsuin-sample",
+      "telephone": "+81-3-6265-9955",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "高田馬場1-33-13 千年ビル802号",
+        "addressLocality": "新宿区",
+        "addressRegion": "東京都",
+        "addressCountry": "JP"
+      },
+      "openingHours": "Mo-Su 08:00-22:00",
+      "medicalSpecialty": ["Physiotherapy", "SportsInjury"],
+      "areaServed": "Shinjuku, Tokyo, Japan",
+      "isAcceptingNewPatients": false,
+      "sameAs": [
+        "https://maps.app.goo.gl/v4uV4VRFCH5gwx9n8",
+        "https://karadarefre.jp/facility/166339/"
+      ]
+    }
+  ],
+  "tracking": {
+    "events": ["cta_tel", "cta_epark", "cta_tel_2", "cta_epark_2"],
+    "note": "実装側でAnalyticsへ紐づけてください。"
+  },
+  "updated_at": "2025-08-18T00:00:00Z"
+}
